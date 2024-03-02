@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:background="@drawable/cover"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvShoppingList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="10dp"
+        android:text="Shopping List"
+        android:textColor="#B7E6E6"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+
+    <EditText
+        android:id="@+id/etinputitem"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:ems="17"
+        android:hint="No Antrian : "
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#A3B5C0"/>
+
+    <EditText
+        android:id="@+id/etinputname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:ems="17"
+        android:hint="Pelanggan : "
+        android:inputType="textPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textColor="#A3B5C0"/>
+
+    <TextView
+        android:id="@+id/tvBukuNovel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Buku Novel : "
+        android:textColor="#A4D6D2"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:src="@drawable/sf"/>
+
+    <TextView
+        android:id="@+id/tvShaf"
+        android:layout_alignParentLeft="true"
+        android:paddingTop="15dp"
+        android:paddingLeft="145dp"
+        android:text="SHAF"
+        android:textStyle="bold"
+        android:textColor="#A3B5C0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvharga1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="145dp"
+        android:text="Rp. 90.000"
+        android:textColor="#A3B5C0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etjumlahbukuSHAF"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="145dp"
+        android:inputType="number"
+        android:maxLength="2"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:text="0"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="338dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_marginStart="20dp"
+        android:padding="10dp"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:src="@drawable/santripilihanbunda"/>
+
+    <TextView
+        android:id="@+id/tvsantripilihanbunda"
+        android:layout_alignParentLeft="true"
+        android:paddingTop="15dp"
+        android:paddingLeft="145dp"
+        android:text="Santri Pilihan Bunda"
+        android:textStyle="bold"
+        android:textColor="#A3B5C0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvharga2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="145dp"
+        android:text="Rp. 75.000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#A3B5C0"/>
+
+    <EditText
+        android:id="@+id/etjumlahbukuSPB"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="145dp"
+        android:inputType="number"
+        android:maxLength="2"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:text="0"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="339dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:src="@drawable/azzamine"/>
+
+    <TextView
+        android:id="@+id/tvazzarine"
+        android:layout_alignParentLeft="true"
+        android:paddingTop="15dp"
+        android:paddingLeft="145dp"
+        android:text="Azzarine"
+        android:textStyle="bold"
+        android:textColor="#A3B5C0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvharga3"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="145dp"
+        android:text="Rp. 75.000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#A3B5C0" />
+
+<EditText
+        android:id="@+id/etjumlahbukuazzarine"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="145dp"
+        android:inputType="number"
+        android:maxLength="2"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:text="0"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"/>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="335dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:src="@drawable/lovefromatoz"/>
+
+    <TextView
+        android:id="@+id/tvLoveAtoZ"
+        android:layout_alignParentLeft="true"
+        android:paddingTop="1dp"
+        android:paddingLeft="145dp"
+        android:text="Love From A to Z"
+        android:textStyle="bold"
+        android:textColor="#A3B5C0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv2plus1"
+        android:layout_alignParentLeft="true"
+        android:paddingTop="19dp"
+        android:paddingLeft="145dp"
+        android:text="pilih 2, dapat miniGift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvharga4"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="145dp"
+        android:text="Rp. 80.000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#A3B5C0" />
+
+    <EditText
+        android:id="@+id/etjumlahbukuAtoZ"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="145dp"
+        android:inputType="number"
+        android:maxLength="2"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:text="0"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"/>
+
+    </RelativeLayout>
+    <RadioGroup
+        android:id="@+id/membership"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RadioButton
+        android:text="NonMember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:text="Gold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:text="Platinum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <RelativeLayout
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_marginTop="12dp"
+        android:background="#024"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="10dp"
+        android:text="Checkout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvdiatas150k"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="40dp"
+        android:textColor="#9BDADA"
+        android:textStyle="italic"
+        android:text="Pembelian diatas Rp. 200.000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvdiskonspesial"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#9BDADA"
+        android:textStyle="italic"
+        android:text="akan mendapatkan diskon maksimal 5%"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
+</ScrollView>
